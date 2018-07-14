@@ -1,5 +1,7 @@
 def hola(nombre):
-  print ('hola %s' %nombre)
-  print ('bye')
+  return ('hola %s' %nombre)
+#  print ('bye')
 
-hola('Chico')
+#hola('Chico')
+def test_answer():
+  assert hola('Chico') == "hola Chico"
